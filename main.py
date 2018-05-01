@@ -95,7 +95,7 @@ Nlu_Framework.register(music.Music)
 # print 'start'
 # a = time.time()
 # for i in range(1000):
-match_dict_list = Nlu_Framework.match('我要听刘德华的冰雨')
+match_dict_list = Nlu_Framework.match('我要听刘德华的冰雨')  # 匹配query_string
 print (match_dict_list)
 # b = time.time()
 # print a - b
