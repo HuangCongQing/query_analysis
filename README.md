@@ -5,6 +5,10 @@ Changed by [ChungKing](https://github.com/HuangCongQing/query_analysis)
 在进行基于正则的文本语义抽取的时候，还需要做大量的基础工作，来便于编写、管理和测试正则表达式。  
 本项目提供大量底层与框架支持，便于使用者方便的编写，管理与测试大批量的正则表达式，以支持高效稳定的语义抽取服务。  
 
+### ERROR
+* [UnicodeDecodeError: 'gbk' codec can't decode byte 0xae in position 11: illegal multibyte sequence](https://github.com/HuangCongQing/query_analysis/issues/1)
+
+
 ## 本项目由3块组成 ##
 * 1.词典（用于组织需要被正则模板使用的底层词库）  
 * 2.正则语义模板（根据不同业务编写的一组正则表达式）  
