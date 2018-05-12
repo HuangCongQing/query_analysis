@@ -4,6 +4,13 @@ Changed by [ChungKing](https://github.com/HuangCongQing/query_analysis)
 当前业界文本语义信息抽取基本是使用正则表达式来完成的，正则表达式本身并不提供管理与测试功能。  
 在进行基于正则的文本语义抽取的时候，还需要做大量的基础工作，来便于编写、管理和测试正则表达式。  
 本项目提供大量底层与框架支持，便于使用者方便的编写，管理与测试大批量的正则表达式，以支持高效稳定的语义抽取服务。  
+### 项目初始化
+```
+pip install -r requirements
+
+python main.py
+```
+
 
 ### ERROR
 * [UnicodeDecodeError: 'gbk' codec can't decode byte 0xae in position 11: illegal multibyte sequence](https://github.com/HuangCongQing/query_analysis/issues/1)
