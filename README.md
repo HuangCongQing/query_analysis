@@ -1,4 +1,4 @@
-# QueryAnalysis #
+# QueryAnalysis(python2X),不是python3X
 Changed by [ChungKing](https://github.com/HuangCongQing/query_analysis)
 
 当前业界文本语义信息抽取基本是使用正则表达式来完成的，正则表达式本身并不提供管理与测试功能。  
